@@ -1,0 +1,79 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.1)
+  - BikeApi (1.0.0):
+    - AFNetworking (~> 2.3)
+    - Alamofire (~> 4.8)
+    - KeychainAccess
+    - MSAL
+    - ObjectMapper
+    - PromiseKit (~> 6.8.3)
+  - KeychainAccess (4.2.2)
+  - MSAL (1.1.24):
+    - MSAL/app-lib (= 1.1.24)
+  - MSAL/app-lib (1.1.24)
+  - ObjectMapper (4.2.0)
+  - PromiseKit (6.8.5):
+    - PromiseKit/CorePromise (= 6.8.5)
+    - PromiseKit/Foundation (= 6.8.5)
+    - PromiseKit/UIKit (= 6.8.5)
+  - PromiseKit/CorePromise (6.8.5)
+  - PromiseKit/Foundation (6.8.5):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.5):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.3)
+  - Alamofire (~> 4.8)
+  - BikeApi (from `../`)
+  - KeychainAccess
+  - MSAL
+  - ObjectMapper
+  - PromiseKit (~> 6.8.3)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - KeychainAccess
+    - MSAL
+    - ObjectMapper
+    - PromiseKit
+
+EXTERNAL SOURCES:
+  BikeApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BikeApi: 703b004d9833d3f9bc4fa7f06552b36b1512d546
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  MSAL: fc6dce17fe34cd14d711651c67f46bff5429ad2d
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PromiseKit: 9616b0afef31eae56ab9ce044c8ec2b8612a15cd
+
+PODFILE CHECKSUM: 4806ff43d53d0e863fb703e4c12a39628127dd72
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module BikeApi {
+  umbrella header "BikeApi-umbrella.h"
+
+  export *
+  module * { export * }
+}
