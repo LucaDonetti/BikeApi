@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BC05B91B8634966103D4287DAE380FC"
-               BuildableName = "BikeApi"
+               BuildableName = "BikeApi.framework"
                BlueprintName = "BikeApi"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

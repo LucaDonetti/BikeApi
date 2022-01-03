@@ -4,7 +4,6 @@ platform :ios, '12.1'
 target 'BikeApi_Tests' do
   
   pod 'BikeApi', :path => '../'
-  pod 'AFNetworking', '~> 2.3'
   pod 'Alamofire', '~> 4.8'
   pod 'KeychainAccess'
   pod 'ObjectMapper'

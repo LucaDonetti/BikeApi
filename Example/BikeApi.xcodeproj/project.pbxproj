@@ -18,7 +18,7 @@
 		64FEAC55FC1B230B7945FC39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		66B12DFE8E465B5BD76AA2C7 /* Pods-BikeApi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeApi_Tests.release.xcconfig"; path = "Target Support Files/Pods-BikeApi_Tests/Pods-BikeApi_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1FC9FBEAEFE88B15330A89A /* Pods-BikeApi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeApi_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BikeApi_Tests/Pods-BikeApi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B97403801DD4D4AA75792747 /* BikeApi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BikeApi.podspec; path = ../BikeApi.podspec; sourceTree = "<group>"; };
+		B97403801DD4D4AA75792747 /* BikeApi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BikeApi.podspec; path = ../BikeApi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EFBD904E699D2BB7F9A9D239 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F87762272702737736F0890F /* Pods_BikeApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeApi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -175,8 +175,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BikeApi_Tests/Pods-BikeApi_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BikeApi/BikeApi.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/MSAL/MSAL.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
@@ -184,8 +184,8 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BikeApi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSAL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
